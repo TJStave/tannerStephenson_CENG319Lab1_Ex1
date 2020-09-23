@@ -14,11 +14,7 @@ import androidx.fragment.app.ListFragment;
 
 public class ActivityListFragment extends ListFragment {
     //
-    String[] activities = new String[]
-            {
-                    "AIActivity",
-                    "VRActivity"
-                     };
+    String[] activities = new String[2];
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -26,6 +22,8 @@ public class ActivityListFragment extends ListFragment {
         //ArrayAdapter creates a view for each array item
         // by calling toString() on each item and placing
         // the contents in a TextView.
+        activities[0]=getString(R.string.aiactivity_name);
+        activities[1]=getString(R.string.vractivity_name);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, activities);
         //bind the list view with array adapter

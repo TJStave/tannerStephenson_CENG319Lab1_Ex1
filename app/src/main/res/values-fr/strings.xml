@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Lab1</string>
+    <string name="main_activity">Activité Principale\n</string>
+    <string name="oncreate_call">OnCreate Appelée\n</string>
+    <string name="onstart_call">OnStart Appelée\n</string>
+    <string name="onrestart_call">OnRestart Appelée\n</string>
+    <string name="onresume_call">OnResume Appelée\n</string>
+    <string name="onpause_call">OnPause Appelée\n</string>
+    <string name="onstop_call">OnStop Appelée\n</string>
+    <string name="ondestroy_call">OnDestroy Appelée\n</string>
+    <string name="list_oncreateview">Liste OnCreateView</string>
+    <string name="list_onstart">Liste OnStart</string>
+    <string name="log_oncreateview">Registre OnCreateView</string>
+    <string name="log_onstart">Registre OnStart</string>
+    <string name="aiactivity_name">AIActivité\n</string>
+    <string name="vractivity_name">VRActivité\n</string>
+
+</resources>
