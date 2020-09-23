@@ -21,7 +21,7 @@ public class LogFragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_log, container, false);
         tvLog = (TextView)view.findViewById(R.id.logWind);
-        Toast toast = Toast.makeText(getContext(), "Log OnCreateView", Toast.LENGTH_SHORT);
+        Toast toast = Toast.makeText(getContext(), getString(R.string.log_oncreateview), Toast.LENGTH_SHORT);
         toast.show();
         return view;
     }
@@ -29,7 +29,7 @@ public class LogFragment extends Fragment {
     @Override
     public void onStart() {
         super.onStart();
-        Toast toast = Toast.makeText(getContext(), "Log OnStart", Toast.LENGTH_SHORT);
+        Toast toast = Toast.makeText(getContext(), getString(R.string.log_onstart), Toast.LENGTH_SHORT);
         toast.show();
     }
 

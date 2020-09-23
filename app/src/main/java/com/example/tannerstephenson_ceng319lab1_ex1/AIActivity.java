@@ -12,18 +12,18 @@ public class AIActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_a_i);
         tvAILog = (TextView)findViewById(R.id.aiText);
-        tvAILog.setText(tvAILog.getText() + "OnCreate called\n");
+        tvAILog.setText(tvAILog.getText() + getString(R.string.oncreate_call));
     }
     public void onStart() {
         super.onStart();
-        tvAILog.setText(tvAILog.getText() + "OnStart called\n");
+        tvAILog.setText(tvAILog.getText() + getString(R.string.onstart_call));
     }
     public void onStop() {
         super.onStop();
-        tvAILog.setText(tvAILog.getText() + "OnStop called\n");
+        tvAILog.setText(tvAILog.getText() + getString(R.string.onstop_call));
     }
     public void onDestroy() {
         super.onDestroy();
-        tvAILog.setText(tvAILog.getText() + "OnDestroy called\n");
+        tvAILog.setText(tvAILog.getText() + getString(R.string.ondestroy_call));
     }
 }

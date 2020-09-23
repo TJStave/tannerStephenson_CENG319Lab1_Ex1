@@ -13,37 +13,37 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         logRef = (LogFragment)getSupportFragmentManager().findFragmentById(R.id.fragment_log);
-        logRef.addLog("Main Activity\n");
-        logRef.addLog("OnCreate called\n");
+        logRef.addLog(getString(R.string.main_activity));
+        logRef.addLog(getString(R.string.oncreate_call));
     }
     public void onStart() {
         super.onStart();
-        logRef.addLog("OnStart called\n");
+        logRef.addLog(getString(R.string.onstart_call));
     }
     public void onRestart()
     {
         super.onRestart();
-        logRef.addLog("OnRestart called\n");
+        logRef.addLog(getString(R.string.onrestart_call));
     }
     public void onResume()
     {
         super.onResume();
-        logRef.addLog("OnResume called\n");
+        logRef.addLog(getString(R.string.onresume_call));
     }
     public void onPause()
     {
         super.onPause();
-        logRef.addLog("OnPause called\n");
+        logRef.addLog(getString(R.string.onpause_call));
     }
     //
     public void onStop()
     {
         super.onStop();
-        logRef.addLog("OnStop called\n");
+        logRef.addLog(getString(R.string.onstop_call));
     }
     public void onDestroy()
     {
         super.onDestroy();
-        logRef.addLog("OnDestroy called\n");
+        logRef.addLog(getString(R.string.ondestroy_call));
     }
 }

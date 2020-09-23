@@ -12,18 +12,18 @@ public class VRActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_v_r);
         tvVRLog = (TextView)findViewById(R.id.vrText);
-        tvVRLog.setText(tvVRLog.getText() + "OnCreate called\n");
+        tvVRLog.setText(tvVRLog.getText() + getString(R.string.oncreate_call));
     }
     public void onStart() {
         super.onStart();
-        tvVRLog.setText(tvVRLog.getText() + "OnStart called\n");
+        tvVRLog.setText(tvVRLog.getText() + getString(R.string.onstart_call));
     }
     public void onStop() {
         super.onStop();
-        tvVRLog.setText(tvVRLog.getText() + "OnStop called\n");
+        tvVRLog.setText(tvVRLog.getText() + getString(R.string.onstop_call));
     }
     public void onDestroy() {
         super.onDestroy();
-        tvVRLog.setText(tvVRLog.getText() + "OnDestroy called\n");
+        tvVRLog.setText(tvVRLog.getText() + getString(R.string.ondestroy_call));
     }
 }

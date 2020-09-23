@@ -1,5 +1,18 @@
 <resources>
     <string name="app_name">Lab1</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="main_activity">Main Activity\n</string>
+    <string name="oncreate_call">OnCreate called\n</string>
+    <string name="onstart_call">OnStart called\n</string>
+    <string name="onrestart_call">OnRestart called\n</string>
+    <string name="onresume_call">OnResume called\n</string>
+    <string name="onpause_call">OnPause called\n</string>
+    <string name="onstop_call">OnStop called\n</string>
+    <string name="ondestroy_call">OnDestroy called\n</string>
+    <string name="list_oncreateview">List OnCreateView</string>
+    <string name="list_onstart">List OnStart</string>
+    <string name="log_oncreateview">Log OnCreateView</string>
+    <string name="log_onstart">Log OnStart</string>
+    <string name="aiactivity_name">AIActivity\n</string>
+    <string name="vractivity_name">VRActivity\n</string>
+
 </resources>

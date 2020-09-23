@@ -30,7 +30,7 @@ public class ActivityListFragment extends ListFragment {
                 android.R.layout.simple_list_item_1, activities);
         //bind the list view with array adapter
         setListAdapter(adapter);
-        Toast toast = Toast.makeText(getContext(), "List OnCreateView", Toast.LENGTH_SHORT);
+        Toast toast = Toast.makeText(getContext(), getString(R.string.list_oncreateview), Toast.LENGTH_SHORT);
         toast.show();
 
         return view;
@@ -39,7 +39,7 @@ public class ActivityListFragment extends ListFragment {
     @Override
     public void onStart() {
         super.onStart();
-        Toast toast = Toast.makeText(getContext(), "List OnStart", Toast.LENGTH_SHORT);
+        Toast toast = Toast.makeText(getContext(), getString(R.string.list_onstart), Toast.LENGTH_SHORT);
         toast.show();
     }
     @Override
